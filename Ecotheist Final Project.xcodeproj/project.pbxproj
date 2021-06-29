@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABF09D0F268BADD100A5AFA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF09D0E268BADD100A5AFA6 /* AppDelegate.swift */; };
+		ABF09D11268BADD100A5AFA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF09D10268BADD100A5AFA6 /* SceneDelegate.swift */; };
+		ABF09D13268BADD100A5AFA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF09D12268BADD100A5AFA6 /* ViewController.swift */; };
+		ABF09D16268BADD100A5AFA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF09D14268BADD100A5AFA6 /* Main.storyboard */; };
+		ABF09D19268BADD100A5AFA6 /* Ecotheist_Final_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABF09D17268BADD100A5AFA6 /* Ecotheist_Final_Project.xcdatamodeld */; };
+		ABF09D1B268BADD300A5AFA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF09D1A268BADD300A5AFA6 /* Assets.xcassets */; };
+		ABF09D1E268BADD300A5AFA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF09D1C268BADD300A5AFA6 /* LaunchScreen.storyboard */; };
+		ABF09D29268BADD300A5AFA6 /* Ecotheist_Final_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF09D28268BADD300A5AFA6 /* Ecotheist_Final_ProjectTests.swift */; };
+		ABF09D34268BADD300A5AFA6 /* Ecotheist_Final_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF09D33268BADD300A5AFA6 /* Ecotheist_Final_ProjectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABF09D25268BADD300A5AFA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABF09D03268BADD100A5AFA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABF09D0A268BADD100A5AFA6;
+			remoteInfo = "Ecotheist Final Project";
+		};
+		ABF09D30268BADD300A5AFA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABF09D03268BADD100A5AFA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABF09D0A268BADD100A5AFA6;
+			remoteInfo = "Ecotheist Final Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABF09D0B268BADD100A5AFA6 /* Ecotheist Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ecotheist Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF09D0E268BADD100A5AFA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABF09D10268BADD100A5AFA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ABF09D12268BADD100A5AFA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABF09D15268BADD100A5AFA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABF09D18268BADD100A5AFA6 /* Ecotheist_Final_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ecotheist_Final_Project.xcdatamodel; sourceTree = "<group>"; };
+		ABF09D1A268BADD300A5AFA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABF09D1D268BADD300A5AFA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABF09D1F268BADD300A5AFA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF09D24268BADD300A5AFA6 /* Ecotheist Final ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ecotheist Final ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF09D28268BADD300A5AFA6 /* Ecotheist_Final_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ecotheist_Final_ProjectTests.swift; sourceTree = "<group>"; };
+		ABF09D2A268BADD300A5AFA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF09D2F268BADD300A5AFA6 /* Ecotheist Final ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ecotheist Final ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF09D33268BADD300A5AFA6 /* Ecotheist_Final_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ecotheist_Final_ProjectUITests.swift; sourceTree = "<group>"; };
+		ABF09D35268BADD300A5AFA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABF09D08268BADD100A5AFA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF09D21268BADD300A5AFA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF09D2C268BADD300A5AFA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABF09D02268BADD100A5AFA6 = {
+			isa = PBXGroup;
+			children = (
+				ABF09D0D268BADD100A5AFA6 /* Ecotheist Final Project */,
+				ABF09D27268BADD300A5AFA6 /* Ecotheist Final ProjectTests */,
+				ABF09D32268BADD300A5AFA6 /* Ecotheist Final ProjectUITests */,
+				ABF09D0C268BADD100A5AFA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABF09D0C268BADD100A5AFA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABF09D0B268BADD100A5AFA6 /* Ecotheist Final Project.app */,
+				ABF09D24268BADD300A5AFA6 /* Ecotheist Final ProjectTests.xctest */,
+				ABF09D2F268BADD300A5AFA6 /* Ecotheist Final ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABF09D0D268BADD100A5AFA6 /* Ecotheist Final Project */ = {
+			isa = PBXGroup;
+			children = (
+				ABF09D0E268BADD100A5AFA6 /* AppDelegate.swift */,
+				ABF09D10268BADD100A5AFA6 /* SceneDelegate.swift */,
+				ABF09D12268BADD100A5AFA6 /* ViewController.swift */,
+				ABF09D14268BADD100A5AFA6 /* Main.storyboard */,
+				ABF09D1A268BADD300A5AFA6 /* Assets.xcassets */,
+				ABF09D1C268BADD300A5AFA6 /* LaunchScreen.storyboard */,
+				ABF09D1F268BADD300A5AFA6 /* Info.plist */,
+				ABF09D17268BADD100A5AFA6 /* Ecotheist_Final_Project.xcdatamodeld */,
+			);
+			path = "Ecotheist Final Project";
+			sourceTree = "<group>";
+		};
+		ABF09D27268BADD300A5AFA6 /* Ecotheist Final ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABF09D28268BADD300A5AFA6 /* Ecotheist_Final_ProjectTests.swift */,
+				ABF09D2A268BADD300A5AFA6 /* Info.plist */,
+			);
+			path = "Ecotheist Final ProjectTests";
+			sourceTree = "<group>";
+		};
+		ABF09D32268BADD300A5AFA6 /* Ecotheist Final ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABF09D33268BADD300A5AFA6 /* Ecotheist_Final_ProjectUITests.swift */,
+				ABF09D35268BADD300A5AFA6 /* Info.plist */,
+			);
+			path = "Ecotheist Final ProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABF09D0A268BADD100A5AFA6 /* Ecotheist Final Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF09D38268BADD300A5AFA6 /* Build configuration list for PBXNativeTarget "Ecotheist Final Project" */;
+			buildPhases = (
+				ABF09D07268BADD100A5AFA6 /* Sources */,
+				ABF09D08268BADD100A5AFA6 /* Frameworks */,
+				ABF09D09268BADD100A5AFA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ecotheist Final Project";
+			productName = "Ecotheist Final Project";
+			productReference = ABF09D0B268BADD100A5AFA6 /* Ecotheist Final Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABF09D23268BADD300A5AFA6 /* Ecotheist Final ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF09D3B268BADD300A5AFA6 /* Build configuration list for PBXNativeTarget "Ecotheist Final ProjectTests" */;
+			buildPhases = (
+				ABF09D20268BADD300A5AFA6 /* Sources */,
+				ABF09D21268BADD300A5AFA6 /* Frameworks */,
+				ABF09D22268BADD300A5AFA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABF09D26268BADD300A5AFA6 /* PBXTargetDependency */,
+			);
+			name = "Ecotheist Final ProjectTests";
+			productName = "Ecotheist Final ProjectTests";
+			productReference = ABF09D24268BADD300A5AFA6 /* Ecotheist Final ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABF09D2E268BADD300A5AFA6 /* Ecotheist Final ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF09D3E268BADD300A5AFA6 /* Build configuration list for PBXNativeTarget "Ecotheist Final ProjectUITests" */;
+			buildPhases = (
+				ABF09D2B268BADD300A5AFA6 /* Sources */,
+				ABF09D2C268BADD300A5AFA6 /* Frameworks */,
+				ABF09D2D268BADD300A5AFA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABF09D31268BADD300A5AFA6 /* PBXTargetDependency */,
+			);
+			name = "Ecotheist Final ProjectUITests";
+			productName = "Ecotheist Final ProjectUITests";
+			productReference = ABF09D2F268BADD300A5AFA6 /* Ecotheist Final ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABF09D03268BADD100A5AFA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					ABF09D0A268BADD100A5AFA6 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					ABF09D23268BADD300A5AFA6 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = ABF09D0A268BADD100A5AFA6;
+					};
+					ABF09D2E268BADD300A5AFA6 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = ABF09D0A268BADD100A5AFA6;
+					};
+				};
+			};
+			buildConfigurationList = ABF09D06268BADD100A5AFA6 /* Build configuration list for PBXProject "Ecotheist Final Project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABF09D02268BADD100A5AFA6;
+			productRefGroup = ABF09D0C268BADD100A5AFA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABF09D0A268BADD100A5AFA6 /* Ecotheist Final Project */,
+				ABF09D23268BADD300A5AFA6 /* Ecotheist Final ProjectTests */,
+				ABF09D2E268BADD300A5AFA6 /* Ecotheist Final ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABF09D09268BADD100A5AFA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF09D1E268BADD300A5AFA6 /* LaunchScreen.storyboard in Resources */,
+				ABF09D1B268BADD300A5AFA6 /* Assets.xcassets in Resources */,
+				ABF09D16268BADD100A5AFA6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF09D22268BADD300A5AFA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF09D2D268BADD300A5AFA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABF09D07268BADD100A5AFA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF09D13268BADD100A5AFA6 /* ViewController.swift in Sources */,
+				ABF09D0F268BADD100A5AFA6 /* AppDelegate.swift in Sources */,
+				ABF09D11268BADD100A5AFA6 /* SceneDelegate.swift in Sources */,
+				ABF09D19268BADD100A5AFA6 /* Ecotheist_Final_Project.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF09D20268BADD300A5AFA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF09D29268BADD300A5AFA6 /* Ecotheist_Final_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF09D2B268BADD300A5AFA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF09D34268BADD300A5AFA6 /* Ecotheist_Final_ProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABF09D26268BADD300A5AFA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABF09D0A268BADD100A5AFA6 /* Ecotheist Final Project */;
+			targetProxy = ABF09D25268BADD300A5AFA6 /* PBXContainerItemProxy */;
+		};
+		ABF09D31268BADD300A5AFA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABF09D0A268BADD100A5AFA6 /* Ecotheist Final Project */;
+			targetProxy = ABF09D30268BADD300A5AFA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABF09D14268BADD100A5AFA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF09D15268BADD100A5AFA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABF09D1C268BADD300A5AFA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF09D1D268BADD300A5AFA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABF09D36268BADD300A5AFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABF09D37268BADD300A5AFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABF09D39268BADD300A5AFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C623334NC3;
+				INFOPLIST_FILE = "Ecotheist Final Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Caitlin-Ramiscal.Ecotheist-Final-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABF09D3A268BADD300A5AFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C623334NC3;
+				INFOPLIST_FILE = "Ecotheist Final Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Caitlin-Ramiscal.Ecotheist-Final-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABF09D3C268BADD300A5AFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C623334NC3;
+				INFOPLIST_FILE = "Ecotheist Final ProjectTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Caitlin-Ramiscal.Ecotheist-Final-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ecotheist Final Project.app/Ecotheist Final Project";
+			};
+			name = Debug;
+		};
+		ABF09D3D268BADD300A5AFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C623334NC3;
+				INFOPLIST_FILE = "Ecotheist Final ProjectTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Caitlin-Ramiscal.Ecotheist-Final-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ecotheist Final Project.app/Ecotheist Final Project";
+			};
+			name = Release;
+		};
+		ABF09D3F268BADD300A5AFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C623334NC3;
+				INFOPLIST_FILE = "Ecotheist Final ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Caitlin-Ramiscal.Ecotheist-Final-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ecotheist Final Project";
+			};
+			name = Debug;
+		};
+		ABF09D40268BADD300A5AFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C623334NC3;
+				INFOPLIST_FILE = "Ecotheist Final ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Caitlin-Ramiscal.Ecotheist-Final-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ecotheist Final Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABF09D06268BADD100A5AFA6 /* Build configuration list for PBXProject "Ecotheist Final Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF09D36268BADD300A5AFA6 /* Debug */,
+				ABF09D37268BADD300A5AFA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF09D38268BADD300A5AFA6 /* Build configuration list for PBXNativeTarget "Ecotheist Final Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF09D39268BADD300A5AFA6 /* Debug */,
+				ABF09D3A268BADD300A5AFA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF09D3B268BADD300A5AFA6 /* Build configuration list for PBXNativeTarget "Ecotheist Final ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF09D3C268BADD300A5AFA6 /* Debug */,
+				ABF09D3D268BADD300A5AFA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF09D3E268BADD300A5AFA6 /* Build configuration list for PBXNativeTarget "Ecotheist Final ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF09D3F268BADD300A5AFA6 /* Debug */,
+				ABF09D40268BADD300A5AFA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ABF09D17268BADD100A5AFA6 /* Ecotheist_Final_Project.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ABF09D18268BADD100A5AFA6 /* Ecotheist_Final_Project.xcdatamodel */,
+			);
+			currentVersion = ABF09D18268BADD100A5AFA6 /* Ecotheist_Final_Project.xcdatamodel */;
+			path = Ecotheist_Final_Project.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ABF09D03268BADD100A5AFA6 /* Project object */;
+}
